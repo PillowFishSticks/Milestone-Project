@@ -52,78 +52,55 @@
 
 ### Visitor Goals
 
-The central target audience for The House of Mouse are:
-- People who collect mouse ornaments or cute animal ornaments.
-- Fans of Harry Potter, Star Wars or Doctor Who.
-- People who value buying handmade.
-- People searching for unique handmade gifts.
-- People in touch with their inner child and who find joy in adorable art.
+The target audience for the resume website is:
+- People who are looking to employ a fullstack developer.
+- Recruitment agencies recruiting potential candidates.
+- Potential employers doing further research into their employee.
+- People wanting to view projects and experiece for potential business.
+- Potential clients looking for a freelance developer.
 
 User goals are:
-- Find a new mouse for my collection.
-- Find a gift for my husband-who-has-everything.
-- Enjoy browsing all the cute designs and stories.
-- Be able to navigate the shop easily, find what I need and make a safe and secure purchase.
-- Buy from a trustworthy online shop.
+- To see educational qualifications of a potential employee. 
+- To see work experience and knowledge of the profession.
+- To view previous project coompleted.
+- To recruit or employ the candidate, if they meet all the criteria.
 
 The House of Mouse online shop is a great way to meet these needs because:
 - The website has been carefully designed with the years of experience this developer has had in running The House of Mouse through online marketplaces like Etsy.
 - The navigation fits with conventions of well laid out online shops, products are professionally photographed and easy to find. All the information that the buyer needs is available and easy to find.
 - The House of Mouse website can be searched by category, similar items and using text search, making it easy for customers to find specific things or enjoy browsing categories that interest them.
 
-### Business Goals
+### Site Owner Goals
 
-The Goals of The House of Mouse business are:
-- Provide a professional online shop that helps the user to feel safe that they are buying from a trustworthy source. 
-- Build brand awareness by including all the branding photographs, colours, fonts and logo associated with The House of Mouse brand.
-- Connect to fans of the shop through The House of Mouse social media channels.
-- Build The House of Mouse newsletter subscriptions.
-- Keep track of sales data to inform future product choices.
-- Make sales of products easy for buyers to increase sales conversion.
+The Goals of the Reesume Website are:
+- To display educational qualifications. 
+- To share work experience and knowledge.
+- To showcase projects to potential employers.
+- To attract potential clients for business.
 
 ## User Stories
 
-As a visitor to The House of Mouse website I expect/want/need:
+As a visitor to Mark Percy's resume website I expect/want/need:
 
-1. To easily find what I am looking for, I want the layout of the site to make sense so I am not confused or put off using it. 
+1. To be able to easily find the information I am looking for, the layout needs to make sense so that I am not put off. 
 
-1. The information I am presented with to be laid out in a way that is easy for me to navigate and digest, so that I find what I need quickly and efficiently.
+1. The site to be laid out in a way that is easy to navigate, so that I can find what I need. 
 
-1. The ability to search through small amounts of information to find what I need, and then be able to easily click to get more detailed information when I need it.
+1. The site to be responsive and navigable for various device sizes; desktop, tablet, and phone. For the content to look good on all of the devices.
 
-1. The site to be easily navigable from any device, desktop, tablet or phone. For the content to look good and be useable on all of these devices.
+1. To learn more about the site owner.
 
-1. To learn more about the shop owner and their process, so that I can be assured I am buying from a small handmade business. 
+1. To be able to view the site owners educational background, to ensure they are qualified for the job.
 
-1. To be able to read reviews of this shop from previous customers, to build trust in my purchase.
+1. To be able to view the site owners previous job experience. 
 
-1. For all information and images to be laid out in a clear and easy to understand way, on whatever size screen I am viewing the website on.
+1. To be able to download the site owners cv, to share and keep for future use. 
 
-1. Plenty of high quality images of the products for sale, so I have a clear idea of what I am buying and can see the quality of the products up close.
+1. To be able to see previous projects completed, as well as read a short description about the project.
 
-1. To be able to easily find out all the information I need to make an informed purchase. I expect information about materials, measurements, safety and packaging to be available on every listing page.
+1. To be able to connect to the site owners social media accounts. 
 
-1. To be informed if I try to order more items than are available in stock.
-
-1. For recorded stock levels to be accurate, so there are no delays in receiving my order.
-
-1. A text search function so that I can quickly narrow down my search when looking for something specific.
-
-1. A clear terms and conditions and privacy policy.
-
-1. There to be a frequently asked questions page for any further questions I might have about my order.
-
-1. To be able to see a summary of my order on every page of the checkout process.
-
-1. That once I am logged in I can access my account details and update them if I need to. 
-
-1. To be able to find information on my past orders and how to cancel an order. 
-
-1. To be able to connect to the businesses social media channels and/or newsletter, to keep up to date with new listings on the site. 
-
-1. To be able to easily get in contact with the shop owner via a contact form.
-
-1. Feedback from the website I am using when I interact with it, I expect pop ups and modals to inform me when my forms have been completed and sent correctly. Or to let me know when an error has ocurred and what to do next.
+1. To be able to easily get in contact with the site owner via a contact form.
 
 ## Design Choices
 
@@ -377,43 +354,6 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 - A quantity field is displayed with each cart item, giving the user the ability to adjust the quantity in their cart. Any time a quantity is adjusted the subtotal displayed is updated to reflect the change.
 - Information is provided for the user to tell them that tax is already included in the price they saw, and that the shipping cost will be calculated during checkout.
 
-#### Checkout
-
-![Checkout page on different screen sizes](https://i.ibb.co/vV2r6NL/checkout-responsive.png)
-
-- Each checkout page features an order summary, which lists all the items in the users cart, title, price and quantity. A link is provided at the top of this for the user to return to the cart page to make changes to the order.
-    - On mobile devices this order summary is part of a closed accordian, the top part of which displays the total cost. It can be clicked to open the full order details. This was done to save space on a smaller screen.
-    - On tablet devices and larger screens, the order summary is displayed in full on the right side of the screen on all checkout pages.
-
-- The checkout process is broken up into 4 stages. The reason for this was to break up the process into small steps as is common in online shops.
-
-    1. **Info**
-        - Here the user is asked to provide the shipping name and address to send their order to. They are also asked to select the country their order will go to, this is used to calculate the shipping price.
-        - Not every country in the world is currently included on the list of shipping destinations. This was done in part to save time in making multiple entries into the database, and also because after running this shop for over 10 years the owner knows which destinations her products are usually shipped to. 
-        - For the unlikely case that someone wishes to ship to a country not in the list, a link at the bottom of the form says "My country is not on the list?" and opens a modal encouraging the user to request their country be added to the shipping destinations.
-        - The "Continue to shipping" button leads the user to the shipping page.
-
-    2. **Shipping**
-        - The shipping page includes all the information that the user has provided so far: Their contact email address (taken from when they created their account), the shipping name and address, and their order summary. A link is provided where the shipping address is displayed so that the user can return to the info page to update it.
-        - This page provides the user with shipping options to choose from. At this point there is only one shipping option available, however this page and functionality have been left in so that other options such as expedited shipping may be added with a future release.
-        - As a shipping method is automatically selected, the order summary now reflects the total cost including shipping. 
-        - The "Continue to payment" button leads the user to the payment page hosted by Stripe.
-
-    3. **Payment**
-        - As stripe now offer a pre-built checkout in their latest version 3, I opted to use this as my payment page, as it hands over much of the back end coding needed for making payment to Stripe.
-        - The Stripe payment page includes a summary of what the user is buying, and fields to enter credit card information.
-        - All the validation and messages to the user on this page are handled by stripe.
-        - On clicking the "Pay" button and on successful completion of payment, the user is redirected to the order confirmation page back on The House of Mouse website.
-
-    4. **Confirmation of order**
-        - The order confirmation page gives the customer all the information they need going forward. The shipping address and expected shipping time are provided. As well as links to the users account page and the contact page should they need to get in touch with the shop owner.
-        - Finally the user is invited to return to the shop with a call to action button at the bottom of the page.
-
-#### Terms and Conditions / Privacy Policy pages
-
-- Every trustworthy online shop provides the legal documentation expected by the user on their site. Although these documents are a legal requirement of any online shop, including them also helps users to feel they can trust the outlet.
-
-
 ## Features for Future Releases
 
 1. **Password reset by email.**
@@ -422,143 +362,18 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
     - This feature also required the gmail settings mentioned above, and is one that would be included if/when the site is properly launched.
 3. **Build staff pages to view all order info needed together for easier shipping process.**
     - Giving staff the ability to view all order information in one place, rather than having to visit the Stripe dashboard or admin panel to see the orders. Functionality for this page might include:
-        - Ability to print out pre-formatted shipping labels
-        - Update order as "shipped" in the database and add tracking information so that the customer is updated with this information at the same time.
-        - Integration with DHL to follow tracking on packages sent.
-        - Ability to handle cancellations and refunds.
-4. **Coupons and discount codes.**
-    - Checkout pages to include a field for customers to enter discount codes or coupons to adjust their final payment cost.
-5. **Gallery app.**
-    - A gallery of previously made custom orders. Many fans of The House of Mouse enjoy seeing the many weird and wonderful creations and artistic flair of the owner. A gallery of mice not for sale, would be enjoyed by many of these fans, and would inspire those looking for a custom order.
-6. **User favourites.**
-    - Another feature designed for The House of Mouse fan, who would return to the site many times and have a "dream collection" of mice they would like to own one day. 
-    - This feature was originally included in the wireframes for this project, but unfortunately had to be clipped from the current release due to time constraints.
-7. **Embedded Mailchimp newsletter signup form in footer.**
-    - At the moment the footer contains a button to lead the user to the newsletter signup form, currently hosted by Mailchimp. 
-    - For ease of use for the user, and to get rid of more clicks needed to sign up, I would like to add the signup form fully embedded into my own website in the footer.
-8. **Additional payment methods.**
-    - The current free version of Stripe checkout only allows for customers to pay via credit card. However this is not a popular form of payment in The Netherlands, with many more people preferring to pay via PayPal, bank transfer or iDeal. Stripe does offer these payment methods, and once this site is deployed for actual use these will be added to the options for customers to choose from.
-9. **Auto login on registering a new account**
-    - A nice extra feature to streamline the login process.
 
 This section will continue to grow as the site is deployed to its own domain and implemented in the real word. New issues and needs will become apparent as the site is used.
-
-# Information Architecture
-
-### Database Choice
-
-- As a framework Django works with SQL databases. During development on my local machine I worked with the standard **sqlite3** database installed with Django.
-- On deployment, the SQL database provided by Heroku is a **PostgreSQL** database. 
-
-### Data Models
-
-#### User
-
-The User model utilized for this project is the standard one provided by `django.contrib.auth.models`
-
-#### Products app model
-
-Within the `products` app, the **Product** model holds all the data needed for the products in the shop.
-
-**Product model**
-
-| Name | Key in db | Validation | Field Type |
---- | --- | --- | ---
-Title | title | max_length=100 | CharField
-Shop category | category | choices=CATEGORY_CHOICES | CharField
-Image 1 | product_image1 |  | ImageField
-Image 2 | product_image2 | blank=True, null=True | ImageField
-Image 3 | product_image3 | blank=True, null=True | ImageField
-Image 4 | product_image4 | blank=True, null=True | ImageField
-Image 5 | product_image5 | blank=True, null=True | ImageField
-Description | description |  | TextField
-Price | price | max_digits=6, decimal_places=2 | DecimalField
-Tags | tags | max_length=300 | CharField
-Stock qty | num_in_stock | validators=[MaxValueValidator(100)] | PositiveSmallIntegerField
-Featured | featured | default=False | BooleanField
-
-- Category choices are defined within the Product model.
-- The Product model uses Pillow to store all image files in an AWS S3 bucket.
-
-#### Cart app models
-
-Within the `cart` app, the **ShippingDestination**, **Order** and **OrderItem** models hold the data needed for users to create and pay for their orders.
-
-**ShippingDestination model**
-
-| Name | Key in db | Validation | Field Type |
---- | --- | --- | ---
-Country | country | max_length=50 | CharField
-Shipping Price | shipping_price | max_digits=6, decimal_places=2 | DecimalField
-Shipping Time | shipping_time | max_length=150, default="1 to 2 weeks" | CharField
-
-- This table is used within the Django admin panel for shop staff to add all the countries the shop will ship to, the cost of that shipping and an estimated shipping time. 
-- This data is then used to calculate the total cost of an order depending on the shipping destination selected, as well as provide the customer with the estimated shipping time when placing their order.
-
-**Order model**
-
-| Name | Key in db | Validation | Field Type |
---- | --- | --- | ---
-User | customer | on_delete=models.PROTECT | ForeignKey to User
-Full Name | full_name | max_length=150 | CharField
-Address line 1 | address_line_1 | max_length=150 | CharField
-Address line 2 | address_line_2 | max_length=150, blank=True | CharField
-Town / City | town_or_city | max_length=150 | CharField
-County | county | max_length=150, blank=True | CharField
-Postcode | postcode | max_length=10 | CharField
-Country | country | on_delete=models.PROTECT | ForeignKey to ShippingDestination
-Date ordered | date_ordered | default=datetime.date.today | DateField
-Paid | paid | default=False | BooleanField
-Shipped | shipped | default=False | BooleanField
-
-- An instance of the Order model is created before any OrderItems, as the latter relies on the former for a ForeignKey.
-
-**OrderItem model**
-
-| Name | Key in db | Validation | Field Type |
---- | --- | --- | ---
-Order | order | on_delete=models.CASCADE | ForeignKey to Order
-Product | product | on_delete=models.PROTECT | ForeignKey to Product
-Quantity | quantity | | PositiveSmallIntegerField
-
-- An instance of OrderItem is created for each unique product in the users cart. It links to the already existing Order for this user, the relevant product and the quantity the user wishes to buy.
 
 # Technologies Used
 
 ### Tools
-- [Visual Studio Code](https://code.visualstudio.com/) is the IDE used for developing this project. 
-- [Django](https://www.djangoproject.com/) as python web framework for rapid development and clean design.
-- [Stripe](https://stripe.com) as payment platform to validate and accept credit card payments securely.
-- [Travis](https://travis-ci.org/) for continuous integration.
-- [AWS S3 Bucket](https://aws.amazon.com/) to store images entered into the database.
-- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) to enable creation, configuration and management of AWS S3.
-- [Coverage](https://coverage.readthedocs.io/en/v4.5.x/) to measure code coverage of python unittests.
-- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style django forms.
-- [Django Heroku](https://pypi.org/project/django-heroku/) to improve deployment of django projects on heroku.
-- [Django Storages](https://django-storages.readthedocs.io/en/latest/) a collection of custom storage backends with django to work with boto3 and AWS S3.
-- [Gunicorn](https://pypi.org/project/gunicorn/) WSGI HTTP Server for UNIX to aid in deployment of the Django project to heroku.
-- [Pillow](https://pillow.readthedocs.io/en/stable/) as python imaging library to aid in processing image files to store in database.
-- [Psycopg2](https://pypi.org/project/psycopg2/) as PostgreSQL database adapter for Python.
-- [Whitenoise](http://whitenoise.evans.io/en/stable/) to allows the web app to serve its own static files.
-- [Obfuscator](https://obfuscator.io/) to obscure emailjs user key from plain text code.
-- [Imgbb](https://imgbb.com) to store external images for this project that were not entered into the database.
-- [PIP](https://pip.pypa.io/en/stable/installing/) for installation of tools needed in this project.
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to handle version control.
 - [GitHub](https://github.com/) to store and share all project code remotely. 
-- [Photoshop](www.adobe.com/Photoshop) to edit, crop and save images as well as utilizing the colour picker to ensure color consistency over the entire project.
-- [Browserstack](https://www.browserstack.com/) to test functionality on all browsers and devices.
-- Heroku for deployment
-- [SweetAlert2](https://sweetalert2.github.io/) for beautiful responsive replacement to javascript popup boxes.
 - [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
-
-### Databases
-- [PostgreSQL](https://www.postgresql.org/) for production database, provided by heroku.
-- [SQlite3](https://www.sqlite.org/index.html) for development database, provided by django.
 
 ### Libraries
 - [JQuery](https://jquery.com) to simplify DOM manipulation.
-- [Jasmine](https://jasmine.github.io/) to run automated tests on JavaScript and jQuery code.
-- [Jasmine-jQuery](https://github.com/velesin/jasmine-jquery) to make it possible to test jQuery code using Jasmine.
 - [Bootstrap](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive easily.
 - [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) to provide icons for The House of Mouse webshop.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
@@ -722,14 +537,8 @@ STRIPE_SUCCESS_URL | `<link to checkout/confirm page in your app>`
 
 # Credits
 
-## Content
-- Terms and conditions template provided by [Shopify](https://en.shopify.nl/tools/policy-generator/terms-and-conditions)
-- Example privacy policy provided by [Cleverbox](https://www.cleverbox.co.uk/example-privacy-policy/)
-- All other text, including but not limited to website introduction, product descriptions and marketing copy was written and provided with permission by The House of Mouse shop owner.
-
 ### Images
-- All product photography was taken and provided with permission by The House of Mouse shop owner.
-- Photographs of the shop owner were taken by [Rudi Wells Photography](https://www.rudiwells.com/)
+- Project images were taken from 
 
 ## Code
 
@@ -740,12 +549,7 @@ STRIPE_SUCCESS_URL | `<link to checkout/confirm page in your app>`
 
 ## Acknowledgements
 
-Special thanks to my mentor [Simen Daehlin](https://github.com/Eventyret) for his time, expertise and friendship through my entire journey through the CodeInstitute full stack web development course.
+Special thanks to my mentor [Name](githubprofile) for his time, and guidence with this project. 
 
-With thanks also to my many coding friends who have tested, helped troubleshoot and debug, saved me from mild panic, supported and encouraged me along the way: Jo, Sean, Tim, Anthony, Robin, John, John, Chris, Anthony, Matt, Bim, Shane, Sipo and Ailsa.
 
-# Contact
-To contact me feel free to email
-
- `gilhespy (dot) anna (at) gmail (dot) com`
 
