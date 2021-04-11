@@ -3,44 +3,27 @@
 </div>
 
 
-[The Resume Website](https://thehouseofmouse.herokuapp.com/) was designed, built and deployed by Anna Greaves as her final project for the Code Institute Full Stack Web Development diploma. The  purpose of The House of Mouse online shop is to be the new custom built base for the established Etsy shop of the same name. This website is designed to create a beautifully intuitive, smooth and effortless online shopping experience. Specifically aimed at customers who enjoy artisan handmade quality, light hearted products and wish to connect to the personality of the creator behind the products they buy.
+[The Resume Website](website) was designed, built and deployed by Mark Percy as his final project for the Code Institute Full Stack Web Development diploma. The  purpose of the resume website is to showcase experience and projects to potential employers. This website is designed to display education, experience, and projects to poteential employers.  
 
 ## Table of Contents
 1. [UX](#ux)
     - [Goals](#goals)
         - [Visitor Goals](#visitor-goals)
-        - [Business Goals](#business-goals)
+        - [Site Owner Goals](#site-owner-goals)
     - [User Stories](#user-stories)
     - [Design Choices](#design-choices)
     - [Wireframes](#wireframes)
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
-        - [Elements on every Page](#elements-on-every-page)
         - [Home Page](#home-page)
-        - [Shop Page](#ashop-page)
-        - [Search Page](#search-page)
-        - [Listing Detail Page](#listing-detail-page)
-        - [About Page](#about-page)
-        - [Frequently Asked Questions Page](#frequently-asked-questions-page)
+        - [Resume Page](#resume-page)
+        - [Projects Page](#projects-page)
         - [Contact Page](#contact-page)
-        - [Register Page](#register-page)
-        - [Login Page](#login-page)
-        - [Account Page](#account-page)
-        - [Log out Page](#log-out-page)
-        - [Cart Page](#cart-page)
-        - [Checkout](#checkout)
-        - [Terms and Conditions / Privacy Policy pages](#terms-and-conditions-privacy-policy-pages)
     - [Features for Future Releases](#features-for-future-releases)
 
-3. [Information Architecture](#information-architecture)
-    - [Database choice](#database-choice)
-    - [Data Models](#data-models)
-        - [User](#user)
-        - [Products App Model](#products-app-model)
-        - [Cart App Models](#cart-app-models)
 
-4. [Technologies Used](#technologies-used)
+3. [Technologies Used](#technologies-used)
     - [Tools](#tools)
     - [Databases](#databases)
     - [Libraries](#libraries)
