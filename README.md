@@ -117,18 +117,7 @@ The resume website was made to display education, work experience, and projects,
 
 These wireframes were created using [Balsamiq](https://balsamiq.com/) during the design and planning process for this project. 
 
-- [Home]()
-- [About]()
-- [FAQs]()
-- [Account]()
-- [Shop/Search Results]()
-- [Catagories]()
-- [Listing]()
-- [Cart]()
-- [Checkout - Info]()
-- [Checkout - Shipping]()
-- [Checkout - Payment]()
-- [Checkout - Confirmed]()
+![Wireframes](/img/wireframes/wireframes.pdf)
 
 # Features
  
