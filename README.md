@@ -1,9 +1,4 @@
-<div align="center">
-    <img src="" href="#" target="_blank" rel="noopener" alt="Home page"/>
-</div>
-
-
-[The Resume Website](website) was designed, built and deployed by Mark Percy as his first project for the Code Institute Full Stack Web Development diploma. The  purpose of the resume website is to showcase experience and projects to potential employers, including education, experience, and projects completed. 
+[The Resume Website](website) was designed, built and deployed by Mark Percy as his first project for the Code Institute Full Stack Web Development diploma. The purpose of the resume website is to showcase experience and projects to potential employers, including education, work experience, and projects completed. 
 
 ## Table of Contents
 1. [UX](#ux)
@@ -25,7 +20,6 @@
 
 3. [Technologies Used](#technologies-used)
     - [Tools](#tools)
-    - [Databases](#databases)
     - [Libraries](#libraries)
     - [Languages](#languages)
 
@@ -33,16 +27,11 @@
     - See separate [TESTING.md](TESTING.md) file.
 
 6. [Deployment](#deployment)
-    - [How to run this project locally](#how-to-run-this-project-locally)
-    - [Heroku Deployment](#heroku-deployment)
-
+ 
 7. [Credits](#credits)
-    - [Content](#content)
     - [Images](#images)
     - [Code](#code)
     - [Acknowledgements](#acknowledgements)
-
-8. [Contact](#contact)
 
 ----
 
@@ -52,7 +41,7 @@
 
 ### Visitor Goals
 
-The target audience for the resume website is:
+The target audience for the resume website are:
 - People who are looking to employ a fullstack developer.
 - Recruitment agencies recruiting potential candidates.
 - Potential employers doing further research into their employee.
@@ -67,7 +56,7 @@ User goals are:
 
 ### Site Owner Goals
 
-The Goals of the Reesume Website are:
+The Goals of the resume website are:
 - To display educational qualifications. 
 - To share work experience and knowledge.
 - To showcase projects to potential employers.
@@ -99,7 +88,7 @@ As a visitor to Mark Percy's resume website I expect/want/need:
 
 ## Design Choices
 
-The resume website was made to be serious, but with a fun side, with the emphasis on highlighting my education, experience, and previous projects. The following desiign choices were made bearing this in mind:
+The resume website was made to display education, work experience, and projects, with a fun side. With emphasis on highlighting my education, experience, and previous projects. The following design choices were made bearing this in mind:
 
 ### Fonts
 - The primary font 'exo' was chosen to be the main text of this site as it is simple, and looks professional. 
@@ -107,12 +96,10 @@ The resume website was made to be serious, but with a fun side, with the emphasi
 - The secondary font 'Roboto' was chosen for the main headings as it is very popular, looks professional, and styles well in both lower and uppercase.
 
 ### Icons
-- Very few icons were used, ass to avoid overcrowding. 
+- Very few icons were used, as to avoid overcrowding. 
 - The **envelope** icon was placed next to the site owners email address to make it stand out, and to make it's purpose clear when doing a quick glance.
 - The **phone** icon was placed next to the site owners phone number to make it standout, and to make it's purpose clear when doing a quick glance. 
-- Yellow **cheese icons** are used as pointers between breadcrumb links on pages that have worked their way deeper into the hierarchical structure of the website 
-- **Star icons** are used in the testimonials section of the home page, to emphasize the high level of reviews the shop already has on Etsy.
-- The **Facebook logo** icon, **Instagram logo** icon, **LinkedIn logo** icon, and **GitHub logo**icon are included in the footer to lead visitors to the site owners social meedia accounts.
+- The **Facebook logo** icon, **Instagram logo** icon, **LinkedIn logo** icon, and **GitHub logo** icon are included in the footer to lead visitors to the site owners social meedia accounts.
 
 ### Colours
 - bright pink: #FF1493
@@ -149,98 +136,57 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 ### Elements on every page
 
 #### Navbar
-- The navbar features on every page except the checkout pages. It was deliberately not included on those pages as that is the standard for online shops, to remove distractions and links that would take the user away from their cart once they decide to start the checkout process.
+- The navbar features on every page. 
 
-- The navigation bar features The House of Mouse logo on the far left, which links to the home page of the site.
+- The navigation bar features the site owner name 'Mark Percy'on the far left, and website pages on the far right which include Home, Resume, Projects, and Contact. 
 
-- **In desktop view** on the left side of the navbar is a list of the key website pages: Home, Shop, About and FAQs. The Shop link is a dropdown menu which lists out the sections of shop products.
+- **In desktop view** on the left side of the navbar is the name of the site owner 'Mark Percy'
 
-- On the right side of the navbar are the links to contact page, search page and shopping cart.
+- On the right side of the navbar are the links to Home page, Resume page, Projects page, and Contact page.
 
-- A user who is currently logged out will also see options to register or log into the website.
-
-- A user who is logged in will see options to view their account page or log out.
-
-- The shopping cart icon is located to the far right of the navigation bar. Once a user has added at least one item to their cart a blue circle will appear with the total number of items in their cart displayed within it. If the total number is 10 or more then the circle will display "9+" to save from extending the text over the size of the blue circle indicator. 
-
-    - The indicator was chosen to mimic notification icons users are used to seeing in online shops and social media etc.
-
-    - The blue color was chosen because it contrasts well with the rest of the sites colors and draws the eye.
-
-    - The shopping cart counter works even for a user who is not logged in. This is because all the information about which products the user has added to their cart is stored in their session data. This makes it possible for a new user to add things to their cart before being asked to log in or register. 
-
-- When a user is on a page listed in the navbar the text for that page is highlighted with a deeper color, and `<span class="sr-only">(current)</span>` is added to the relevant html for screen readers to tell which page the user is on.
-
-
-<div align="center">
-    <img src="https://i.ibb.co/c2mT77b/navbar-mobile.png" alt="The House of Mouse Navbar on mobile devices" aria-label="The House of Mouse Navbar on mobile devices" />
-</div>
-
-- **In tablet and mobile view** the logo remains in the left side of the navigation bar, where users would expect it to be. 
-- The shopping cart icon is displayed in the middle of the navigation bar, and the burger icon to display the full navigation menu is on the far left, again because that is where a user would expect to find it.
+- **In tablet and mobile view** the site owners name remains on the left side of the navigation bar, where users would expect it to be. 
+- The burger icon which displays the full navigation menu is on the far right.
 
 #### Footer
 
-![Footer](https://i.ibb.co/n8k7swY/footer.png)
+- The footer features on every page. 
 
-- The footer features on every page except the cart and checkout pages. It was deliberately not included on those pages as that is the standard for online shops, to remove distractions and links that would take the user away from their cart once they decide to start the checkout process.
+- The footer features the site owners email address, phone number, and links to social media accounts. 
 
-- The footer features The House of Mouse tagline at the top, designed to speak to those most likely to enjoy the products for sale. Under this is a link to The House of Mouse newsletter signup form, hosted by Mailchimp.
+- The footer features links to the site owners social media accounts for Facebook, Instagram, LinkeedIn, and GitHub. 
 
-- Underneath the newsletter signup button is a list of the shops categories, making it easy for the user to find a section they are most interested in. On the right side a list of the most commonly used links. 
+- The content is displayed in white, when the user hovers over a link, the text turns black and the background turns white.
 
-- The footer background of grey was chosen to provide some contrast and obvious separation between the footer and the rest of the content on the page. The Headings are displayed in pink with the links all in white. When the user hovers over a link it gently turns pink.
+### Home Page 
 
-- The footer features the copyright information for The House of Mouse, with the 2nd year date automatically updated with Javascript as each new year begins.
+![Home page](/imgs/resume-website/home.png)
 
-- The footer also includes a link to The House of Mouse active social media channel on Facebook. If/When The House of Mouse reactivates their other social medial channels on twitter/instagram/pinterest then these can be added to the icons in the footer.
+**Introdcution**
+- Below the navbar is a circular profile picture and next to that is a description of the site owner. 
+- Below the description are threee buttons 'My Skills', 'My Work', and 'My Contact'.
+- 'My Skills' take you to the Resume page. 
+- 'My Work' take you to the Projects page.
+- 'My Contact' takes you to the Contact page. 
 
-### Home Page
 
-**Hero slider/carousel**
-- The home page hero slider/carousel features 3 slides of promotional images from The House of Mouse. There are 4 images in total used as the last slides image is different for mobile and desktop. The reason for this was that the image gets too cropped when in a wide screen, while looks much better when the dimensions are taller than wide. So this image was saved for mobile screens, and another chosen for wider screens. 
-
-**Introduction and brief pitch**
-- Below the hero slider is a concise introduction to The House of Mouse, what it is, who created it and what their mission is.
-- A "learn more" button leads a user to the About page where they can read the story behind The House of Mouse. 
-- Icons are used to deliver information on the quality and scope of the shop quickly. The information here is deliberately short and to the point, as this page is most likely where a brand new customer would land first and it is important to use this space effectively to help convert sales.
-
-**Shop categories**
-
-![Shop categories](https://i.ibb.co/rkRpHq8/sections.png)
-
-- Below the site introduction are a selection of the shop categories, displayed with beautiful product photographs and clear headings. The user can click any of these images to be taken to the relevant sections of the shop.
-- On desktop view these sections are displayed with 2 larger images and 4 smaller ones, to give some visual contrast. On smaller screens each section image is the same size, so save space.
-
-**Testimonials carousel**
-
-![Testimonials carousel](https://i.ibb.co/3fLPkQy/reviews.png)
-
-- A carousel of 5 reviews from The House of Mouse customers on Etsy. Each displays a 5 star rating and the review written by a customer. At the bottom of the carousel is a "read more" button that links to The House of Mouse Etsy shop reviews section, where the user can read more of the reviews for this shop.
-
-**Featured listings**
-
-![Featured listings](https://i.ibb.co/TLZS3Gw/featured.png)
-
-- At the bottom of the home page 4-6 products are selected from the products database from those with `featured = True` in their properties. 4 products are displayed on desktop, and 6 on mobile and tablet size screens.
-- A "browse more" button is placed underneath the featured listing inviting the user to go to the shop page.
-
+**Three reasons to hire**
+- Below the three buttons aree three blocks containing 'Skills', 'Best Practice', and 'Experience'. 
+- 'Skills' includes the diffrent languages the site owner is proficient in. 
+- 'Best practice' includes coding best practices by the site owner.
+- 'Experience' provides a very brief summary of the site owners work experience. 
 
 ### Resume Page
 
-**Category buttons**
-- The main shop page features a collection of buttons leading to each section of the shop. These buttons are not visible on mobile view to save space, as they can also be accessed from the navbar.
+**My languages**
+- This section includeslanguages and frameworks that the site owner is proficient in, including HTML/CSS, Java/jQuery/ Python/Django. 
 
-**Sort results**
-- The main shop page includes the option to sort its results by "featured", "price: high to low" and "price: low to high".
+**Education**
+- This section gives the educational background of the sitte owner. 
+- It includes three different insertions of different content studied at different universities. 
+- All iinformation is displayed in a column alongside experience. 
 
-**Products list**
-- Products in the shop are displayed as thumbnail images with their title and price displayed underneath each photograph.
-- Shop results are paginated by 12 items at a time. This number was chosen because 12 can be evenly divided by 3 and 4 making is possible to display results 4 to a row on desktop, 3 to a row on tablet and 1 on top of each other on mobile screens.
-- Each product in the list has a link to it;s respective product listing with more photographs and information.
-
-**Pagination** 
-- Pagination buttons are provided depending on the number of results returned from the database with options for "First", "previous", "next" and "last" as well as the page number the user is currently on.
+**Experience**
+- This section displays the site owners work experience. 
 
 ### Project Page
 - The category pages are built from the same template as the main shop page and displays the same buttons and sorting options.
@@ -279,7 +225,6 @@ This section will continue to grow as the site is deployed to its own domain and
 ### Languages
 - This project uses HTML, CSS, and JavaScript programming languages.
 
-
 # Testing 
 
 Testing information can be found in separate [TESTING.md](TESTING.md) file
@@ -287,14 +232,6 @@ Testing information can be found in separate [TESTING.md](TESTING.md) file
 # Deployment
 
 ## GitHub Deployment
-
-To deploy the resume website to GitHub Pages, take the following steps:
-
-1. Create a `requirements.txt` file using the terminal command `pip freeze > requirements.txt`.
-
-2. Create a `Procfile` with the terminal command `echo web: python app.py > Procfile`.
-
-12. Once instances of these items exist in your database your heroku site will run as expected.
 
 # Credits
 
@@ -305,18 +242,16 @@ To deploy the resume website to GitHub Pages, take the following steps:
 ## Code
 
 - The following websites helped me undestand and create my website, by viewing examples and explanatons.
-    - [Python Django Web Framework by freeCodeCamp.org]()
-    - [Python Django Tutorial by Corey Schafer]()
+    - [W3schools](https://www.w3schools.com/)
+    - [Bootsnipp](https://bootsnipp.com/)
 
-- The README file template was taken from Anna Greave's 'The House of Mouse' project. 
-    - [The House of Mouse by Anna Greaves ]()
+- The following website was used for type text 
+
+- The README file was taken from Anna Greave's 'The House of Mouse' project to use as a template.
+    - [The House of Mouse by Anna Greaves ](https://github.com/AJGreaves/thehouseofmouse)
 
 ## Acknowledgements
 
  - Special thanks to my mentor [Name](githubprofile) for his time, and guidance with this project. 
  - Code Institute tutors for helping support and guide me in the right direction with my code.
-
-Thanks! Mark 
-
-
 
