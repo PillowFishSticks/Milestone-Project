@@ -24,7 +24,8 @@
     - [Languages](#languages)
 
 5. [Testing](#testing)
-    - See separate [TESTING.md](TESTING.md) file.
+    - [Test Matrix](#test-matrix)
+    - [Compatability](#compatability)
 
 6. [Deployment](#deployment)
  
@@ -68,23 +69,23 @@ As a visitor to Mark Percy's resume website I expect/want/need:
 
 1. To be able to easily find the information I am looking for, the layout needs to make sense so that I am not put off. 
 
-1. The site to be laid out in a way that is easy to navigate, so that I can find what I need. 
+2. The site to be laid out in a way that is easy to navigate, so that I can find what I need. 
 
-1. The site to be responsive and navigable for various device sizes; desktop, tablet, and phone. For the content to look good on all of the devices.
+3. The site to be responsive and navigable for various device sizes; desktop, tablet, and phone. For the content to look good on all of the devices.
 
-1. To learn more about the site owner.
+4. To learn more about the site owner.
 
-1. To be able to view the site owners educational background, to ensure they are qualified for the job.
+5. To be able to view the site owners educational background, to ensure they are qualified for the job.
 
-1. To be able to view the site owners previous job experience. 
+6. To be able to view the site owners previous job experience. 
 
-1. To be able to download the site owners cv, to share and keep for future use. 
+7. To be able to download the site owners cv, to share and keep for future use. 
 
-1. To be able to see previous projects completed, as well as read a short description about the project.
+8. To be able to see previous projects completed, as well as read a short description about the project.
 
-1. To be able to connect to the site owners social media accounts. 
+9. To be able to connect to the site owners social media accounts. 
 
-1. To be able to easily get in contact with the site owner via a contact form.
+10. To be able to easily get in contact with the site owner via a contact form.
 
 ## Design Choices
 
@@ -177,37 +178,47 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 ### Resume Page
 
+![Resume page](/img/resume-website/resume.png)
+
 **My languages**
 - This section includeslanguages and frameworks that the site owner is proficient in, including HTML/CSS, Java/jQuery/ Python/Django. 
 
 **Education**
 - This section gives the educational background of the sitte owner. 
 - It includes three different insertions of different content studied at different universities. 
-- All iinformation is displayed in a column alongside experience. 
+- All information is displayed in a column alongside experience. 
 
 **Experience**
 - This section displays the site owners work experience. 
+- It includes three different jobs and details what the role included. 
+- All information is displayed in a column alongside education.
 
 ### Project Page
-- The category pages are built from the same template as the main shop page and displays the same buttons and sorting options.
-- Pagination is not currently available for shop categories, as there is an unsolved bug with trying to then sort these results. As the number of products in a single category is never very large I opted to leave fixing this issue for a future release.
+
+![Projects page](/img/resume-website/projects.png)
+
+- Includes three different projects completed by the site owner, 'Resume', 'Love Running', and 'Coders Coffeehouse'. 
+- Each project includes an image of the project and a brief description of the project.  
+- The projects are seperated by solid lines, creating a row for each project. 
 
 ### Contact page
-- The search page is built from the same template as the main shop page and shop categories pages. With the one addition of the search bar where users can enter a text search.
-- On loading the search page there are no products displayed. Once the user has entered a text search the results are displayed below the search bar and paginated if more than 12 results are returned from the database.
-- If no results for a text search are returned from the database then the text 
-"There are currently no listings that match this search" provides feedback to the user.
+
+![Contact page](/img/resume-website/contact.png)
+
+- The contact page provides a contact form for the user to get in touch with the site owner. 
+- The contact form includes Name, Email, and Your Message that you would like to leave. 
+- There is a green 'Send Message' button below to submit the completed contact form. 
 
 ## Features for Future Releases
 
-1. **Password reset by email.**
-    - I already looked into this, but it required changing settings in my private gmail account to less secure ones. Which is not something I am willing to do at this moment. When/if this site is deployed to it's own domain and is being used as a fully functioning online store, then I will invest in a separate gmail account specifically for it and get this feature set up.
-2. **Sending an email to customer when their new order has been placed.**
-    - This feature also required the gmail settings mentioned above, and is one that would be included if/when the site is properly launched.
-3. **Build staff pages to view all order info needed together for easier shipping process.**
-    - Giving staff the ability to view all order information in one place, rather than having to visit the Stripe dashboard or admin panel to see the orders. Functionality for this page might include:
-
-This section will continue to grow as the site is deployed to its own domain and implemented in the real word. New issues and needs will become apparent as the site is used.
+1. **Chatbox for potential clients**
+    - Having a chatbox on the Contact page, that allows people to chat with you and leave you messages. 
+2. **More projects added to the project page**
+    - Once more projects have been completed, adding those to the Projects page.
+    - Each project having a link to the live project. 
+3. **Review page for clients to add reviews**
+    - A review page that allows previous clients to add review about the work done for them and how satified they are with the final product. 
+    - Possibly a star rating. 
 
 # Technologies Used
 
@@ -227,11 +238,36 @@ This section will continue to grow as the site is deployed to its own domain and
 
 # Testing 
 
-Testing information can be found in separate [TESTING.md](TESTING.md) file
+## Test Matrix
+
+- HTML Validation: No errors found.
+- CSS Validation: No errors found.
+
+## Compatability
+To ensure a broad range of users can successfully use this site, I tested it across the 4 major browsers in both desktop and mobile configuration.
+
+- Chrome v.70
+- Edge v.18
+- Firefox v.63
+- Safari v.12
+
+The responsive design mode was used in all browsers to examine the site at various screen sizes on the following devices:
+
+- Desktop view
+- iPad Pro
+- iPad
+- iPhone 6/7/8 plus
+- iPhone 6/7/8
+- Pixel 2
+- Pixel 2 XL
+- Galaxy S5
 
 # Deployment
 
 ## GitHub Deployment
+
+- I've deployed the site using GitHub Pages, and is available here: 
+- For this project, local deployment was not required.
 
 # Credits
 
@@ -245,10 +281,12 @@ Testing information can be found in separate [TESTING.md](TESTING.md) file
     - [W3schools](https://www.w3schools.com/)
     - [Bootsnipp](https://bootsnipp.com/)
 
-- The following website was used for type text 
+- The following website provided inspiration for my website.
+    - [Website Inspiration](https://www.webdesign-inspiration.com/web-designs/style/dark)
 
-- The README file was taken from Anna Greave's 'The House of Mouse' project to use as a template.
+- The README file was taken from both Tim Nelson's 'IATA Map' project and Anna Greave's 'The House of Mouse' project to use as a template.
     - [The House of Mouse by Anna Greaves ](https://github.com/AJGreaves/thehouseofmouse)
+    - [IATA Map](https://github.com/TravelTimN/ci-milestone02-ifd) 
 
 ## Acknowledgements
 
