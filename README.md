@@ -159,7 +159,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 ### Home Page 
 
-![Home page](/imgs/resume-website/home.png)
+![Home page](/img/resume-website/home.png)
 
 **Introdcution**
 - Below the navbar is a circular profile picture and next to that is a description of the site owner. 
