@@ -233,12 +233,11 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 - CSS Validation: No errors found.
 
 ## Compatability
-To ensure a broad range of users can successfully use this site, I tested it across the 4 major browsers in both desktop and mobile configuration.
+To ensure a broad range of users can successfully use this site, I tested it across the 3 major browsers in both desktop and mobile configuration.
 
-- Chrome v.70
-- Edge v.18
-- Firefox v.63
-- Safari v.12
+- Chrome v.89
+- Firefox v.87
+- Safari v.14
 
 The responsive design mode was used in all browsers to examine the site at various screen sizes on the following devices:
 
